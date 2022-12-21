@@ -9,6 +9,7 @@
             >{{ old('message') }}</textarea>
             <x-input-error :messages="$errors->get('message')" class="mt-2"></x-input-error>
             <x-primary-button class="mt-4">{{ __('Chirp') }}</x-primary-button>
+
         </form>
     </div>
 </x-app-layout>
